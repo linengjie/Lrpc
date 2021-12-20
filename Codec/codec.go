@@ -5,7 +5,7 @@ import "io"
 type Header struct {
 	ServiceMethod string
 	Seq           uint64
-	Err           error
+	Err           string
 }
 
 //编码解码接口
